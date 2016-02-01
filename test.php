@@ -35,7 +35,6 @@ global $height;
 $pdf = new PDF();
 
 $pdf->AddPage();
-	$name = "Meu Nóme";
 
 //var_export($user);
 //$fullname = fullname($user, true);
@@ -82,7 +81,7 @@ $pdf->Output("sample.pdf");
 echo '
 <script type="text/JavaScript">
 alert("Obrigado por fazer o download");
-document.location = "http://methisava.educacao.ws/Modificador%20de%20PDFv1.1/sample.pdf";
+document.location = "URL_File";
 </script> ';
 
 ?>
